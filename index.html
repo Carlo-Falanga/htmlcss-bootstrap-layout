@@ -15,17 +15,24 @@
   <body>
     <main>
       <div class="container text-center my-5">
+        <header>
+          <h1 class="fw-bold">Bootstrap 5 Responsive Grid</h1>
+          <p class="text-body-secondary">
+            Layout a griglia con diversi livelli di breakpoint (sm, md, lg).
+          </p>
+        </header>
+
         <!-- First row -->
-        <div class="row py-5 text-start">
-          <div class="col-sm-6 p-4 bg-light-subtle">
+        <div class="row py-4 text-start">
+          <div class="col-sm-12 col-md-6 p-4 bg-body-secondary">
             <h2>Colonna 1</h2>
             <p class="fs-6">
               Larghezza intera su dispositivi piccolo, met&aacute; larghezza su
               dispositivi medi e un terzo su dispositivi grandi.
             </p>
           </div>
-          <div class="col-sm-6 p-4 bg-secondary text-light">
-            <h2>Colonna 1</h2>
+          <div class="col-sm-12 col-md-6 p-4 bg-secondary text-light">
+            <h2>Colonna 2</h2>
             <p class="fs-6">
               Larghezza intera su dispositivi piccolo, met&aacute; larghezza su
               dispositivi medi e un terzo su dispositivi grandi.
@@ -34,7 +41,32 @@
         </div>
 
         <!-- Second row -->
-       
+        <div class="row text-start text-light">
+          <div class="col-6 p-4 col-md-4 bg-primary">
+            <h2>Colonna 1</h2>
+            <p class="fs-6">
+              Larghezza intera su dispositivi piccolo, met&aacute; larghezza su
+              dispositivi medi e un terzo su dispositivi grandi.
+            </p>
+          </div>
+          <div class="col-6 p-4 col-md-4 bg-success">
+            <h2>Colonna 2</h2>
+            <p class="fs-6">
+              Larghezza intera su dispositivi piccolo, met&aacute; larghezza su
+              dispositivi medi e un terzo su dispositivi grandi.
+            </p>
+          </div>
+          <div class="col-12 p-4 col-md-4 bg-danger">
+            <h2>Colonna 3</h2>
+            <p class="fs-6">
+              Larghezza intera su dispositivi piccolo, met&aacute; larghezza su
+              dispositivi medi e un terzo su dispositivi grandi.
+            </p>
+          </div>
+        </div>
+
+        <!-- Third row -->
+        
       </div>
     </main>
 
